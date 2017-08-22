@@ -1,0 +1,30 @@
+body {
+    margin-top: 51px;
+    background-color: cornsilk;
+}
+
+/*Navbar overrides*/
+.navbar-default{
+    background-color: #d00000;
+    border-color: black;
+}
+.navbar-brand.topnav{
+    color: #FFFFFF;
+}
+.navbar-default .navbar-nav>li>a{
+    color: #FFFFFF;
+}
+
+/*Home page only*/
+.tagline  {
+    color: white;
+}
+
+.business-header {
+    height: 400px;
+    background: url('/assets/misc/images/DTS.mod.jpg') center center no-repeat scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
